@@ -56,4 +56,4 @@ nav a:hover { color:#2aa8ff; }
 .contact-box { display:flex; flex-direction:column; gap:15px; width:350px; }
 .contact-box input, .contact-box textarea { padding:12px; border-radius:6px; border:1px solid #2aa8ff; background:transparent; color:#fff; }
 .send-btn { display:inline-block; padding:12px; text-align:center; color:#fff; border-radius:6px; background:#2aa8ff; text-decoration:none; transition:0.3s; }
-.send-btn:hover { background:#7b00ff; box-shadow:0 0 15px #7b00ff;
+.send-btn:hover { background:#7b00ff; box-shadow:0 0 15px #7b00ff;}
