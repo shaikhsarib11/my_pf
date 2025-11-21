@@ -3,124 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarib | Portfolio</title>
+    <title>Sarib | Hacker Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- PRELOADER -->
-    <div class="preloader">
-        <div class="loader-glow"></div>
-    </div>
-
-    <!-- BACKGROUND BLOBS -->
-    <div class="bg-blob"></div>
-    <div class="bg-blob"></div>
+    <!-- MATRIX BACKGROUND -->
+    <div class="matrix"></div>
+    <div class="scanline"></div>
 
     <!-- HEADER -->
     <header>
         <nav>
-            <h2 class="logo">Sarib</h2>
+            <h2 class="logo glitch">SARIB</h2>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- HOME -->
-    <section id="home" class="section home reveal">
-        <div class="home-content">
-            <h1 class="title">Welcome to my portfolio!</h1>
+    <section id="home" class="section home">
+        <h1 class="hack-title glitch">WELCOME TO MY PORTFOLIO</h1>
+        <h2 class="sub">I AM <span class="green">SARIB</span></h2>
+        <p class="tag">— Hacker-Style Creative Developer —</p>
 
-            <h2 class="subtitle">
-                I'm <span class="name">Sarib</span>
-            </h2>
-
-            <!-- TYPING ANIMATION (CSS ONLY) -->
-            <div class="typing-box">
-                <span class="typing-text">Software Developer • Creative Developer • Developer</span>
-            </div>
-
-            <!-- Social Icons -->
-            <div class="social-icons">
-                <a href="#"><img src="https://img.icons8.com/?size=80&id=12599&format=png"></a>
-                <a href="#"><img src="https://img.icons8.com/?size=80&id=13930&format=png"></a>
-                <a href="mailto:shaikhsarib@gmail.com"><img src="https://img.icons8.com/?size=80&id=2R0N5S5zwFfA&format=png"></a>
-            </div>
-        </div>
-
-        <div class="home-img reveal">
-            <div class="img-circle"></div>
-            <img src="./images/img1.jpg" alt="Your Image">
+        <div class="terminal-box">
+            <p>> Loading profile...</p>
+            <p>> Status: <span class="green">ACTIVE</span></p>
+            <p>> Email: <span class="green">shaikhsarib@gmail.com</span></p>
         </div>
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="section reveal">
-        <h1 class="section-title">About Me</h1>
+    <section id="about" class="section">
+        <h1 class="section-title glitch">ABOUT ME</h1>
 
-        <div class="about-content">
-            <div class="about-img glow">
-                <div class="img-placeholder">Your Image Here</div>
-            </div>
-
-            <div class="about-text">
-                <p>
-                    Hi, I'm <b>Sarib</b>, a developer who loves building modern,
-                    smooth, and animated digital experiences with creativity and clean UI design.
-                </p>
-                <p>
-                    I specialize in UI animations, neon theme interfaces, responsive layouts, 
-                    and visually rich front-end development.
-                </p>
-
-                <div class="skills">
-                    <div class="skill glow">HTML</div>
-                    <div class="skill glow">CSS</div>
-                    <div class="skill glow">JavaScript</div>
-                    <div class="skill glow">React</div>
-                </div>
-            </div>
+        <div class="about-text">
+            <p class="line">> Hello, I'm <span class="green">Sarib</span>.</p>
+            <p class="line">> A developer with hacker-style UI taste.</p>
+            <p class="line">> I create neon-green cyberpunk websites.</p>
+            <p class="line">> Specializing in animations, UI design, and CSS art.</p>
         </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projects" class="section reveal">
-        <h1 class="section-title">Projects</h1>
+    <section id="projects" class="section">
+        <h1 class="section-title glitch">PROJECTS</h1>
 
-        <div class="project-container">
-            <div class="project-card glow">
-                <img src="https://via.placeholder.com/300x180">
-                <h3>Portfolio Website</h3>
-                <p>Futuristic neon animated portfolio.</p>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Neon Hacker Portfolio</h3>
+                <p>Glitch + matrix animation UI.</p>
             </div>
 
-            <div class="project-card glow">
-                <img src="https://via.placeholder.com/300x180">
-                <h3>Task App</h3>
-                <p>A clean real-time task manager.</p>
+            <div class="project-card">
+                <h3>Cyberpunk Landing Page</h3>
+                <p>Dark sci-fi theme with neon glow.</p>
             </div>
 
-            <div class="project-card glow">
-                <img src="https://via.placeholder.com/300x180">
-                <h3>Landing Page</h3>
-                <p>A modern animated landing page design.</p>
+            <div class="project-card">
+                <h3>Animated Terminal UI</h3>
+                <p>Pure CSS hacker terminal animations.</p>
             </div>
+
         </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section reveal">
-        <h1 class="section-title">Contact Me</h1>
+    <section id="contact" class="section">
+        <h1 class="section-title glitch">CONTACT</h1>
 
         <div class="contact-box">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
-            <a href="mailto:shaikhsarib@gmail.com" class="send-btn">Send Message</a>
+            <a class="email-btn" href="mailto:shaikhsarib@gmail.com">
+                > SEND MESSAGE
+            </a>
         </div>
     </section>
 
